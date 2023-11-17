@@ -26,3 +26,11 @@ class alpaca_dataset:
     train_split: str = "train"
     test_split: str = "val"
     data_path: str = "src/llama_recipes/datasets/alpaca_data.json"
+
+
+@dataclass
+class ro_alpaca_dataset:
+    dataset: str = "ro_alpaca_dataset"
+    train_split: str = "train"
+    test_split: str = "val"
+    data_path: str = "src/llama_recipes/datasets/ro_alpaca_data.json"
